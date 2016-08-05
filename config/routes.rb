@@ -5,6 +5,8 @@ Rails.application.routes.draw do
 
   get 'experiments/page3'
 
+  post 'pages/save_form'
+
   get 'pages/batman'
 
   get 'pages/superman'
