@@ -14,9 +14,9 @@
  *= require_self
  */
 
-suoerman {
+.superman {
   background-image: url("http://e02-elmundo.uecdn.es/assets/multimedia/imagenes/2016/03/23/14587271587271.jpg");
 }
-batman {
+.batman {
   background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2NVylNIn45_sdqLmkT3i9kf36dJbK-QLERuUorYypAd5mGigmPQ");
 }
