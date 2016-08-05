@@ -1,3 +1,28 @@
-$.backstretch("http://screenrant.com/wp-content/uploads/Superman-3D-Art.jpg");
-<h1>This looks like a job for Superman</h1>
-<p>Find me in app/views/pages/batmanvssuperman.html.erb</p>
+<div class="row">
+  <div class="col-md-6">
+    <div><a href="/pages/batman">BATMAN</a></div>
+
+
+    <div> <form action="<%= pages_save_form_path %>" method="POST">
+  <%= hidden_field_tag :authenticity_token,
+form_authenticity_token %>
+    <input placeholder="ESCRIBE BATMAN" heroe="q">
+    <input placeholder="E-mail" email="l">
+    <input type="submit" value="Enviar">
+
+  </form>
+ </div>
+
+  <div class="col-md-6">
+
+  </div> <a href="/pages/superman">SUPERMAN</a>   </div>
+  <div> <form action="<%= pages_save_form_path %>" method="POST">
+<%= hidden_field_tag :authenticity_token,
+form_authenticity_token %>
+  <input placeholder="ESCRIBE SUPERMAN" heroe="q">
+  <input placeholder="E-mail" email="l">
+  <input type="submit" value="Enviar">
+
+</form>
+</div>
+</div>
